@@ -1,0 +1,29 @@
+/* General body styling */
+body {
+    background-color: #181818;     /* Dark background */
+    color: white;                  /* Text color for better readability */
+    font-size: 60px;               /* Large font size */
+    font-family: 'Arial', sans-serif; /* Modern sans-serif font */
+    display: flex;                 /* Flexbox for centering */
+    justify-content: center;       /* Horizontal centering */
+    align-items: center;           /* Vertical centering */
+    height: 100vh;                 /* Full viewport height */
+    margin: 0;                     /* Remove default margin */
+    text-align: center;            /* Center text alignment */
+    flex-direction: column;        /* Arrange items vertically */
+}
+
+/* Styling for the word element */
+#word {
+    color: lightgreen;             /* Light green text color */
+    margin-bottom: 20px;           /* Add space below the word */
+    font-weight: bold;             /* Make the word bold */
+}
+
+/* Styling for the definition element */
+#definition {
+    color: aliceblue;              /* Light, calming blue */
+    font-size: 40px;               /* Slightly smaller font size */
+    max-width: 800px;              /* Limit width for better readability */
+    line-height: 1.5;              /* Improve line spacing */
+}
